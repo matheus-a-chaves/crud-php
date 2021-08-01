@@ -1,0 +1,146 @@
+body{
+
+    background-color: #fff ;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+   
+ } 
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+ }
+
+
+
+.table-classificacao {
+    padding-right: 0px;
+  }
+.fborda th{
+    border-bottom:0px; 
+}
+.td-cinza{
+    background-color:#f5f5f5 ;
+}
+.table td{
+    border-bottom:1px solid #dee2e6;
+}
+
+.mg-top{
+    margin-top:70px ;
+}
+.mg-top strong {
+    font-size: 25px;
+}
+
+.navbar{
+    background-color:#0b1641;
+}
+
+.logo img{
+    width: 140px;
+}
+.logo{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.alinhar-center{
+    text-align: center;
+}
+
+/*TESTE APENAS*/
+.fundo{
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/fundoteste.jpg");  
+}
+
+#fild {
+   
+    padding: 5px;
+    box-shadow: 2px -2px 0 1px rgb(13, 52, 224) inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+
+  }
+  #service {
+   
+    padding: 5px;
+    box-shadow: 2px -2px 0 1px  rgb(13, 52, 224)  inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    
+  }
+
+#form_cad {
+    display: none;
+    position: table;
+    background-color: #0b1641;
+    border: solid 1px white;
+    border-radius: 5%;
+    color: white;
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+
+#form_edit {
+    display: block;
+    position: table;
+    background-color: #0b1641;
+    border: solid 1px white;
+    border-radius: 5%;
+    color: white;
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+    margin-left: 33%;
+    margin-top: 10%;
+
+}
+
+#btn_form_edit{
+    cursor: pointer;
+    background-color: white;
+}
+
+#novisible{
+    display: none;
+}
+
+
+
+
